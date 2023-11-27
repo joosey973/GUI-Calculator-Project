@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>734</width>
+    <height>725</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>734</width>
+    <height>725</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(140, 140, 140);
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>669</width>
+     <height>666</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>734</width>
+     <height>666</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="graphic_button">
+        <property name="minimumSize">
+         <size>
+          <width>191</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>191</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+color: white
+}
+QPushButton:pressed{
+background-color: #091c34;
+color: #6d6d6d
+}</string>
+        </property>
+        <property name="text">
+         <string>Graphic | Calculator</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ans_space">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>10000000</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+border: 1px solid black;
+color: rgb(255, 255, 255);
+	font: 75 75pt &quot;Yu Gothic UI Semibold&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="n_sqrt_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>(x)⁴</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="rev_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>(x)⁻¹</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pow_3_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>(x)³</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="sin_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>sin(x)</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="tg_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>tg(x)</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pow_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>(x)²</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="cos_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>cos(x)</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="x_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: #0f2b50;
+	border: 0px;
+    border-radius: 35px;
+    border-style: outset;
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+background-color: #5d5d5d;
+}</string>
+            </property>
+            <property name="text">
+             <string>x</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">complexOperarionButtonsGroup</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="build_btn">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>71</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #01d1ff;
+	border: 0px;
+	color:black;
+    border-radius: 35px;
+    border-style: outset;
+}
+QPushButton:pressed{
+background-color: #0590cb;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Build</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>734</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>≡</string>
+    </property>
+    <addaction name="Simple"/>
+    <addaction name="Engineering"/>
+    <addaction name="Function_graphs"/>
+    <addaction name="separator"/>
+    <addaction name="Currency"/>
+    <addaction name="Volume"/>
+    <addaction name="Length"/>
+    <addaction name="Temperature"/>
+    <addaction name="Speed"/>
+    <addaction name="Corner"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Simple">
+   <property name="text">
+    <string>Simple</string>
+   </property>
+  </action>
+  <action name="Engineering">
+   <property name="text">
+    <string>Engineering</string>
+   </property>
+  </action>
+  <action name="Function_graphs">
+   <property name="text">
+    <string>Function graphs</string>
+   </property>
+  </action>
+  <action name="Currency">
+   <property name="text">
+    <string>Currency</string>
+   </property>
+  </action>
+  <action name="Volume">
+   <property name="text">
+    <string>Volume</string>
+   </property>
+  </action>
+  <action name="Length">
+   <property name="text">
+    <string>Length</string>
+   </property>
+  </action>
+  <action name="Temperature">
+   <property name="text">
+    <string>Temperature</string>
+   </property>
+  </action>
+  <action name="Speed">
+   <property name="text">
+    <string>Speed</string>
+   </property>
+  </action>
+  <action name="Corner">
+   <property name="text">
+    <string>Corner</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="complexOperarionButtonsGroup"/>
+ </buttongroups>
+</ui>
